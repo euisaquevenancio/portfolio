@@ -21,10 +21,10 @@ Portfólio web para documentar meus avanços na programação e aplicar os conhe
 
 ## Deploy
 
-Para acessar o deploy desse projeto basta *[clicar aqui](https://isaquesv.github.io/portfolio/)* ou acessar a seguinte URL:
+Para acessar o deploy desse projeto basta *[clicar aqui](https://euisaquevenancio.github.io/portfolio/)* ou acessar a seguinte URL:
 
 ```
-  https://isaquesv.github.io/portfolio/
+  https://euisaquevenancio.github.io/portfolio/
 ```
 
 ---
@@ -41,13 +41,13 @@ Para acessar o deploy desse projeto basta *[clicar aqui](https://isaquesv.github
 
 ## Suporte
 
-Para suporte, caso você encontre algum problema, tenha sugestões de melhorias ou algo do tipo, fique à vontade para adicionar uma **issue** *[clicando aqui](https://github.com/isaquesv/portfolio/issues/new)*!
+Para suporte, caso você encontre algum problema, tenha sugestões de melhorias ou algo do tipo, fique à vontade para adicionar uma **issue** *[clicando aqui](https://github.com/euisaquevenancio/portfolio/issues/new)*!
 
 ---
 
 ## Autores
 
-- *[isaquesv](https://www.github.com/isaquesv)*
+- *[euisaquevenancio](https://www.github.com/euisaquevenancio)*
 
 ## Licença
 
@@ -64,5 +64,6 @@ Para suporte, caso você encontre algum problema, tenha sugestões de melhorias 
 ![Projetos - Tema escuro - English (US)](src/img/screenshot-portfolio-3-b.png)
 
 ![Certificados - Tema escuro - English (US)](src/img/screenshot-portfolio-4-b.png)
+
 
 ![Rodapé - Tema escuro - English (US)](src/img/screenshot-portfolio-5-b.png)
