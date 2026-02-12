@@ -114,12 +114,14 @@ body.dark main .container #certificates .certificate small {
     }   
 }
 
-@media (max-width: 425.6px) {
-    main .container #certificates .certificate {
-        padding: 38px 7%;
-    }
-    
+@media (max-width: 480.6px) {
     main .container #certificates .certificate button {
         width: 100%;
     }
+}
+
+@media (max-width: 425.6px) {
+    main .container #certificates .certificate {
+        padding: 38px 7%;
+    }    
 }

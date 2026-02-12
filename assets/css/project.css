@@ -164,6 +164,12 @@ main .container #projects .project .right video {
     }
 }
 
+@media (max-width: 480.6px) {
+    main .container #projects .project .left button:not(.tag) {
+        width: 100%;
+    }
+}
+
 @media (max-width: 425.6px) {
     main .container #projects .project .left {
         text-align: center;
@@ -172,9 +178,5 @@ main .container #projects .project .right video {
     
     main .container #projects .project .left h2 {
         margin-bottom: 14px;
-    }
-    
-    main .container #projects .project .left button:not(.tag) {
-        width: 100%;
     }
 }
