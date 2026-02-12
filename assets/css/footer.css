@@ -1,0 +1,72 @@
+/* Rodapé */
+footer,
+body.light footer {
+    border-top: 1px solid var(--gray);
+    background-color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+
+footer {
+    width: 100%;
+}
+
+body.dark footer {
+    border-top: 1px solid var(--gray-2);
+    background-color: var(--black-2);
+}
+
+footer div {
+    text-align: center;
+    padding: 18px;
+    border-bottom: 2px solid transparent;
+    border-image: repeating-linear-gradient(to right, var(--gray) 0 10px, transparent 10px 20px);
+    border-image-slice: 1;
+}
+
+body.dark footer div {
+    border-bottom: 2px solid transparent;
+    border-image: repeating-linear-gradient(to right, var(--gray-2) 0 10px, transparent 10px 20px);
+    border-image-slice: 1;
+}
+footer div a {
+    color: var(--black);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+footer div a:not(:last-of-type) {
+    margin-right: 22px;
+}
+
+footer div a:hover,
+body.dark footer div a:hover {
+    font-weight: bold;
+    color: #5da36f;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 18px;
+}
+
+body.dark footer div a,
+body.dark footer p {
+    color: var(--white);
+}
+
+@media (max-width: 520px) {
+    footer div a {
+        display: block;
+    }
+    
+    footer div a:not(:last-of-type) {
+        margin: 0 0 8px 0;
+    }
+}
+
+@media (max-width: 520px) {
+    footer p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

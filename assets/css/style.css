@@ -1,0 +1,70 @@
+@import url("./root.css");
+
+body {
+    font-family: var(--font);
+    background-color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+
+body.light {
+    background-color: var(--white);
+}
+
+body.dark {
+    background-color: var(--black-2);
+}
+
+h1,
+h5 {
+    font-weight: bold;
+}
+
+h1,
+b {
+    color: var(--black-2);
+}
+
+body.dark h1,
+body.dark h5,
+body.dark b,
+body.dark p {
+    color: var(--white);
+}
+
+h5 {
+    color: #529b64;
+}
+
+body.dark h5 {
+    color: #5da36f;
+}
+
+p {
+    font-size: 20px;
+}
+
+main {
+    margin-top: 172px;
+    padding: 64px 0;
+}
+
+@media (max-width: 991.2px) {
+    p {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 95%;
+        width: 95%;
+    }
+    
+    main {
+        margin-top: 92px;
+    }
+}
+
+@media (max-width: 639px) {
+    p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "themes": [
+        "Light mode",
+        "Dark mode"
+    ],
+    "links": [
+        "About Me",
+        "Skills",
+        "Projects",
+        "Certificates"
+    ],
+    "sidebarTitle": "Portfolio",
+    "copyright": "All rights reserved",
+    "aboutMe": {
+        "title": "Web Developer",
+        "subtitle": "Systems Analyst and Developer",
+        "paragraph": "I develop complete and scalable web solutions, working across both the frontend and backend, with the creation and consumption of APIs, integration and modeling of databases, applying best programming practices and clean code organization. I work primarily with Java, JavaScript, and SQL to build well-structured web systems, focusing on quality, performance, maintainability, and the continuous evolution of solutions.",
+        "downloadResume": "Download resume"
+    },
+    "skill": {
+        "title": "My Skills",
+        "paragraph1": "I turn ideas into functional, well-organized web solutions by following software development best practices. I work across all stages of an application, from the front end-building responsive and user-friendly interfaces to the back end, ensuring everything works together consistently.",
+        "paragraph2": "I have a solid foundation in technical fundamentals, which helps me make good decisions and quickly adapt when learning new languages, frameworks, or technologies based on project needs.",
+        "paragraph3": "I aim to build applications with clean, organized, and maintainable code, focusing on clarity, scalability, and efficiency. I enjoy contributing to projects that value best practices, continuous learning, and well-thought-out solutions.",
+        "subtitle1": "Databases",
+        "subtitle2": "Tools"
+    },
+    "project": {
+        "title": "My projects",
+        "portfolio": {
+            "title": "Portfolio",
+            "paragraph1": "My personal website, developed to clearly and professionally showcase my projects, skills, certifications, experiences, as well as the technologies I work with as a web developer.",
+            "paragraph2": "The site features light and dark themes, providing better accessibility and visual comfort, and supports both English (en-US) and Portuguese (pt-BR), expanding the platform’s reach and usability."
+        },
+        "witc": {
+            "paragraph1": "An interactive League of Legends game in which the player attempts to guess a mysterious champion based on characteristics revealed each round, using APIs to retrieve up-to-date champion data.",
+            "paragraph2": "Through visual feedback with colors and indicators, the game guides the player toward the correct answer within a limited number of attempts, delivering a dynamic, intuitive, and engaging experience."
+        },
+        "witca": {
+            "paragraph1": "API responsible for fetching, organizing, and providing League of Legends champion data used in the game Who Is That Champion?.",
+            "paragraph2": "Designed to optimize information flow, the API centralizes processing, grouping, and delivery of all content required for the guessing game to function, ensuring performance, consistency, and efficient integration between data and the application."
+        },
+        "radarpg": {
+            "paragraph1": "Social network-style website created to connect the community of Praia Grande (SP) through relevant news and posts, strengthening local participation and engagement.",
+            "paragraph2": "The platform features artificial intelligence integration for image and text analysis, as well as an administrative dashboard that allows simple, organized, and accessible management of users, content, and interactions."
+        },
+        "edusiga": {
+            "paragraph": "Educational virtual assistant in the form of an intelligent chatbot, integrated with Google’s Gemini AI, developed to support students in using SIGA and in their academic learning, answering questions related to the student’s own information and academic status."
+        },
+        "calculator": {
+            "title": "Calculator",
+            "paragraph1": "Web-based calculator with support for three visual themes (light, dark, and vintage), developed as a remake of a previous version while preserving the original look in the “vintage” theme.",
+            "paragraph2": "The application supports decimal values and operations including addition, subtraction, multiplication, division, percentage calculations, and factorials, offering a functional and customizable experience."
+        },
+        "fluxosul": {
+            "paragraph1": "Web page developed for FluxoSul – Drain Cleaning Solutions, with the goal of presenting the company and its services in a clear and professional manner.",
+            "paragraph2": "The site strengthens the brand’s online presence and facilitates customer contact through simple, accessible navigation optimized for different devices."
+        },
+        "viewProjectButton": "View",
+        "githubButton": "Repository",
+        "bySpan": "Developed by",
+        "createdSpan": "Created on"
+    },
+    "certificate": {
+        "title": "My Certificates",
+        "aedds": {
+            "title": "Análise e Desenvolvimento de Sistemas",
+            "paragraph": "Education focused on the development of robust systems and applications, with emphasis on logic, programming, databases, web solutions, best practices, code versioning, and fundamentals of artificial intelligence.",
+            "type": "Higher education",
+            "hour": "2800 hours"
+        },
+        "teipi": {
+            "title": "Técnico em Informática para Internet",
+            "paragraph": "Training focused on the creation, development, and maintenance of web applications, integrating front-end, back-end, and databases.",
+            "type": "Technical course",
+            "issueDate": "Mar 2023",
+            "hour": "3600 hours"
+        },
+        "cod": {
+            "title": "Database Foundations",
+            "paragraph": "Introduction to database fundamentals, including modeling, structure, SQL queries, and the use of MySQL Workbench.",
+            "type": "Course",
+            "issueDate": "Nov 2024"
+        },
+        "dfcfe": {
+            "title": "Database Foundations Cumulative Final Exam",
+            "paragraph": "Practical assessment of essential knowledge in databases and SQL fundamentals.",
+            "type": "Course",
+            "issueDate": "Nov 2024"
+        },
+        "jdbaaceep": {
+            "title": "Java do básico ao avançado – com exercícios e projetos",
+            "paragraph": "Progressive learning of the Java language, covering programming logic, fundamental concepts, object-oriented programming, and project development.",
+            "type": "Course",
+            "issueDate": "Jul 2025",
+            "hour": "29 hours"
+        },
+        "mdj": {
+            "title": "Minicurso de Java",
+            "paragraph": "Hands-on introduction to Java programming, with back-end application development using Maven, Spring Boot, and REST API, including Lombok, H2 Database integration, data security, exception handling, and application deployment.",
+            "type": "Course",
+            "issueDate": "Jan 2026",
+            "hour": "5 hours"
+        },
+        "fdedd": {
+            "title": "Fundamentos de Engenharia de Dados",
+            "paragraph": "Conceptual foundation on data processing, organization, and flow, with a focus on queries and support for analysis and decision-making.",
+            "type": "Course",
+            "issueDate": "Sep 2024",
+            "hour": "24 hours"
+        },
+        "mpbpbieds": {
+            "title": "Microsoft Power BI Para Business Intelligence e Data Science",
+            "paragraph": "Data analysis and development of interactive dashboards in Power BI, supporting decision-making in business intelligence.",
+            "type": "Course",
+            "issueDate": "Jun 2025",
+            "hour": "72 hours"
+        },
+        "iaieatd": {
+            "title": "Introdução à IoT e à Transformação Digital",
+            "paragraph": "Introduction to IoT concepts and digital transformation, highlighting impacts on processes, business, and networking fundamentals.",
+            "type": "Course",
+            "issueDate": "Jun 2025"
+        },
+        "ic": {
+            "title": "Immediate Conversation",
+            "paragraph": "Development of English communication skills, focused on practical conversation and everyday situations.",
+            "type": "Course",
+            "issueDate": "Jun 2023",
+            "hour": "140 hours"
+        },
+        "typeSpan": "Content type:",
+        "issueDateSpan": "Issued on:",
+        "hourSpan": "Workload:",
+        "viewCertificateButton": "View"
+    },
+    "contact": {
+        "a": "b"
+    }
+
+}

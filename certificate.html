@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaque Venancio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/logo-small.png"> <!-- Ícone -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/certificate.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <!-- 1º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="firstNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img loading="lazy" src="assets/img/logo-complete.svg" alt="Isaque Venancio logo" height="66">
+            </a>
+            
+            <i class="bi bi-list" id="sidebarIcon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguage" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualTheme" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 2º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="secondNavbar">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Portfólio</h5>
+            <i class="bi bi-x-lg" id="closeSidebarIcon" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguageMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualThemeMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="container">
+            <h1>Meus certificados</h1>
+            <div id="certificates">
+                <div class="certificate" id="aedds">
+                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                    <h5>Fatec de Praia Grande</h5>
+                    <p>Formação voltada ao desenvolvimento de sistemas e aplicações robustos, com foco em lógica, programação, banco de dados, soluções para web, aplicação de boas práticas, versionamento de código e fundamentos de inteligência artificial.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Ensino superior</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>2800 horas</i></small>
+                </div>
+                
+                <div class="certificate" id="teipi">
+                    <h4>Técnico em Informática para Internet</h4>
+                    <h5>ETEC de Itanhaém</h5>
+                    <p>Capacitação para criação, desenvolvimento e manutenção de aplicações web, integrando front-end, back-end e bancos de dados.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso técnico</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>mar de 2023</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>3600 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1732807583342/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+
+                <div class="certificate" id="cod">
+                    <h4>Database Foundations</h4>
+                    <h5>Oracle Database</h5>
+                    <p>Introdução aos fundamentos de bancos de dados, incluindo modelagem, estrutura, consultas SQL e uso do MySQL Workbench.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>nov de 2024</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1732776403829/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+                
+                <div class="certificate" id="dfcfe">
+                    <h4>Database Foundations Cumulative Final Exam</h4>
+                    <h5>Oracle Database</h5>
+                    <p>Avaliação prática dos conhecimentos essenciais em bancos de dados e fundamentos de SQL.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>nov de 2024</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1732776561092/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+
+                <div class="certificate" id="jdbaaceep">
+                    <h4>Java do básico ao avançado – com exercícios e projetos</h4>
+                    <h5>Hora de Codar</h5>
+                    <p>Aprendizado progressivo da linguagem Java, abordando lógica de programação, conceitos fundamentais, programação orientada a objetos e desenvolvimento de projetos.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>jul de 2025</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>29 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1752516142330/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+
+                <div class="certificate" id="mdj">
+                    <h4>Minicurso de Java</h4>
+                    <h5>Rocketseat</h5>
+                    <p>Introdução prática à programação em Java, com desenvolvimento de aplicação back-end utilizando Maven, Spring Boot e API REST, incluindo Lombok, integração com H2 Database, segurança de dados, tratamento de exceções e deploy da aplicação.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>jan 2026</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>5 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1768070736659/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+                
+                <div class="certificate" id="fdedd">
+                    <h4>Fundamentos de Engenharia de Dados</h4>
+                    <h5>Data Science Academy</h5>
+                    <p>Base conceitual sobre tratamento, organização e fluxo de dados, com foco em consultas e suporte à análise e à tomada de decisão.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>set de 2024</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>24 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1750528403667/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+
+                <div class="certificate" id="mpbpbieds">
+                    <h4>Microsoft Power BI Para Business Intelligence e Data Science</h4>
+                    <h5>Data Science Academy</h5>
+                    <p>Análise de dados e desenvolvimento de dashboards interativos no Power BI, apoiando a tomada de decisões em inteligência de negócios.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>jun de 2025</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>72 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1750528428394/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+
+                <div class="certificate" id="iaieatd">
+                    <h4>Introdução à IoT e à Transformação Digital</h4>
+                    <h5>Cisco Networking Academy</h5>
+                    <p>Introdução aos conceitos de IoT e transformação digital, destacando impactos em processos, negócios e fundamentos de redes.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>jun de 2025</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1750528862947/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+                
+                <div class="certificate" id="ic">
+                    <h4>Immediate Conversation</h4>
+                    <h5>Wizard by Pearson</h5>
+                    <p>Desenvolvimento da comunicação em inglês, com foco em conversação prática e situações do dia a dia.</p>
+                    <small class="type"><span>Tipo de conteúdo:</span> <i>Curso</i></small>
+                    <small class="issue-date"><span>Emitido em:</span> <i>jun de 2023</i></small>
+                    <small class="hour"><span>Carga horária:</span> <i>140 horas</i></small>
+                    <a href="https://www.linkedin.com/in/isaque-venancio/details/certifications/1732808275910/single-media-viewer/" target="_blank">
+                        <button class="view-certificate-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <a href="https://github.com/euisaquevenancio/" target="_blank"><i class="bi bi-github"></i> euisaquevenancio</a>
+            <a href="https://www.linkedin.com/in/isaque-venancio/" target="_blank"><i class="bi bi-linkedin"></i> isaque-venancio</a>
+            <a href="https://www.instagram.com/euisaquevenancio/" target="_blank"><i class="bi bi-instagram"></i> euisaquevenancio</a>
+        </div>
+        <p>© <span id="currentYear">2026</span> Isaque Venancio. <span id="copyright">Todos os direitos reservados</span>.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+    <script src="assets/js/script.js"></script>    
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

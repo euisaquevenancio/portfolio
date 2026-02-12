@@ -1,0 +1,180 @@
+main .container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .container #projects .project:not(:last-of-type) {
+    margin-bottom: 24px;
+}
+
+main .container #projects .project {
+    display: flex;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+body.dark main .container #projects .project {
+    border: 1px solid var(--gray-2);
+    background-color: #232323;
+}
+
+main .container #projects .project:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 8px rgba(55, 55, 55, 0.6);
+}
+
+body.dark main .container #projects .project:hover {
+    box-shadow: 0 2px 8px rgba(200, 200, 200, 0.6);
+}
+
+main .container #projects .project .left {
+    width: 50%;
+    padding: 38px 3.5%;
+    border-right: 2px solid var(--gray);
+}
+
+body.dark main .container #projects .project .left {
+    border-right: 2px solid var(--gray-2);
+} 
+
+main .container #projects .project .left h2 {
+    font-weight: bolder;
+    color: var(--black);
+}
+
+body.dark main .container #projects .project .left h2 {
+    color: var(--white);
+}
+
+main .container #projects .project .left p {
+    font-size: 17px;
+    margin: 12px 0 18px 0;
+}
+
+main .container #projects .project .left .tags .tag,
+main .container #projects .project .left button {
+    font-weight: bold;
+    color: #797979;
+    border: 1px solid var(--gray);
+    background-color: #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+main .container #projects .project .left .tags .tag {
+    font-size: 14px;
+    padding: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 30px;
+}
+
+main .container #projects .project .left a {
+    text-decoration: none;
+}
+
+main .container #projects .project .left button:not(.tag) {
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+main .container #projects .project .left button:hover,
+main .container #projects .project .left .tags .tag:hover {
+    background-color: var(--white);
+}
+
+body.dark main .container #projects .project .left button,
+body.dark main .container #projects .project .left .tags .tag {
+    color: rgb(196, 196, 196);
+    border: 1px solid var(--gray-2);
+    background-color: rgb(48, 48, 48);
+}
+
+main .container #projects .project .left button:hover,
+body.dark main .container #projects .project .left button:hover,
+main .container #projects .project .left .tags .tag:hover,
+body.dark main .container #projects .project .left .tags .tag:hover {
+    color: #529b64;
+    border: 1px solid #529b64;
+}
+
+main .container #projects .project .left small {
+    display: block;
+}
+
+main .container #projects .project .left small a,
+main .container #projects .project .left small i {
+    color: #529b64;
+}
+
+main .container #projects .project .left small a {
+    text-decoration: none;
+}
+
+main .container #projects .project .left small a:hover {
+    text-decoration: underline;
+}
+
+main .container #projects .project .left small {
+    color: var(--black);
+}
+
+body.dark main .container #projects .project .left small {
+    color: var(--white);
+}
+
+main .container #projects .project .right {
+    width: 50%;
+    margin-left: auto;
+}
+
+main .container #projects .project .right img,
+main .container #projects .project .right video {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+    main .container #projects .project {
+        flex-direction: column;
+    }
+
+    main .container #projects .project .left {
+        order: 2;
+        width: 100%;
+        border-right: 0;
+        padding: 38px 5%;
+        border-top: 2px solid var(--gray);
+    }
+    
+    main .container #projects .project .right {
+        order: 1;
+        width: 100%;
+    }
+
+    main .container #projects .project .right img,
+    main .container #projects .project .right video {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+}
+
+@media (max-width: 425.6px) {
+    main .container #projects .project .left {
+        text-align: center;
+        padding: 38px 7%;
+    }
+    
+    main .container #projects .project .left h2 {
+        margin-bottom: 14px;
+    }
+    
+    main .container #projects .project .left button:not(.tag) {
+        width: 100%;
+    }
+}

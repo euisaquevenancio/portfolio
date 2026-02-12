@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaque Venancio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/logo-small.png"> <!-- Ícone -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <!-- 1º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="firstNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img loading="lazy" src="assets/img/logo-complete.svg" alt="Isaque Venancio logo" height="66">
+            </a>
+            
+            <i class="bi bi-list" id="sidebarIcon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguage" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualTheme" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 2º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="secondNavbar">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Portfólio</h5>
+            <i class="bi bi-x-lg" id="closeSidebarIcon" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguageMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualThemeMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="container">
+            <h1>Meus projetos</h1>
+            <div id="projects">
+                <div class="project" id="radarPraiaGrande">
+                    <div class="left">
+                        <h2>Radar Praia Grande</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">Node.js</button>
+                            <button class="tag">SQLite</button>
+                            <button class="tag">Gemini API</button>
+                        </div>
+                        <p>Website no formato de rede social, criado para conectar a comunidade de Praia Grande (SP) por meio de notícias e postagens relevantes, fortalecendo a participação e o engajamento local.</p>
+                        <p>A plataforma conta com integração de inteligência artificial para análise de imagens e textos, além de um dashboard administrativo que permite gerenciar usuários, conteúdos e interações de forma simples, organizada e acessível.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/radar-praia-prande-website" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                            <a href="https://radar-praia-grande.onrender.com" target="_blank">
+                                <button class="view-project-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a>, <a href="https://github.com/luiza-carla" target="_blank"><i>luiza-carla</i></a>, <a href="https://github.com/ruann-fernandess" target="_blank"><i>ruann-fernandess</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>08/11/2025</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/radarpg-mockup-light-pt-br.png" alt="Mockup da interface do website de notícias Radar Praia Grande.">
+                    </div>
+                </div>
+                
+                <div class="project" id="whoIsThatChampion">
+                    <div class="left">
+                        <h2>Who Is That Champion</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">Java</button>
+                            <button class="tag">Maven</button>
+                            <button class="tag">Tomcat</button>
+                            <button class="tag">JavaScript</button>
+                        </div>
+                        <p>Jogo interativo de League of Legends em que o jogador tenta adivinhar um campeão misterioso a partir de características reveladas a cada rodada, utilizando APIs para obter dados atualizados dos campeões.</p>
+                        <p>Por meio de feedback visual com cores e indicadores, o jogo orienta o jogador até o acerto dentro de tentativas limitadas, proporcionando uma experiência dinâmica, intuitiva e envolvente.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/who-is-that-champion" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>07/04/2025</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/mockup/witc-mockup-light-pt-br.png" alt="Mockup da interface do jogo de adivinhação Who Is That Champion.">
+                    </div>
+                </div>
+                
+                <div class="project" id="whoIsThatChampionAPI">
+                    <div class="left">
+                        <h2>Who Is That Champion API</h2>
+                        <div class="tags">
+                            <button class="tag">API</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">Node.js</button>
+                            <button class="tag">Vercel</button>
+                        </div>
+                        <p>API responsável por buscar, organizar e disponibilizar os dados dos campeões de League of Legends utilizados no jogo Who Is That Champion?.</p>
+                        <p>Projetada para otimizar o fluxo de informações, a API centraliza o processamento, o agrupamento e o retorno de todo o conteúdo necessário para o funcionamento do jogo de adivinhação, garantindo desempenho, consistência e integração eficiente entre os dados e a aplicação.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/who-is-that-champion-data-api" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                            <a href="https://who-is-that-champion-data-api.vercel.app/api" target="_blank">
+                                <button class="view-project-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>24/04/2025</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/mockup/witca-mockup-light-pt-br.png" alt="Demonstração da API do jogo de adivinhação Who Is That Champion.">
+                    </div>
+                </div>
+
+                <div class="project" id="edusiga">
+                    <div class="left">
+                        <h2>EduSiga</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">Java</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">SQLite</button>
+                            <button class="tag">Gemini API</button>
+                        </div>
+                        <p>Assistente virtual educacional no formato de ChatBot inteligente, integrada à IA Gemini, da Google, desenvolvida para oferecer suporte aos alunos no uso do SIGA e no aprendizado acadêmico, respondendo perguntas relacionadas às informações e à situação acadêmica do próprio aluno.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/assistenteVirtualEducacionalSIGA" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a>, <a href="https://github.com/luiza-carla" target="_blank"><i>luiza-carla</i></a>, <a href="https://github.com/ruann-fernandess" target="_blank"><i>ruann-fernandess</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>27/08/2024</i></small>
+                    </div>
+                    <div class="right">
+                        <video controls>
+                            <source src="assets/img/edusiga-video-2024.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+
+                <div class="project" id="portfolio">
+                    <div class="left">
+                        <h2>Portfólio</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">HTML</button>
+                            <button class="tag">CSS</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">Bootstrap</button>
+                        </div>
+                        <p>Meu website pessoal, desenvolvido para apresentar de forma clara e profissional meus projetos, habilidades, certificações, experiências, além das tecnologias que domino como desenvolvedor web.</p>
+                        <p>O site conta com temas claro e escuro, oferecendo melhor acessibilidade e conforto visual, além de suporte aos idiomas inglês (en-US) e português (pt-BR), ampliando o alcance e a usabilidade da plataforma.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/portfolio" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                            <a href="https://euisaquevenancio.github.io/portfolio/" target="_blank">
+                                <button class="view-project-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>26/07/2025</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/mockup/portfolio-mockup-light-pt-br.png" alt="Mockup da interface do meu website pessoal.">
+                    </div>
+                </div>
+                
+                <div class="project" id="calculator">
+                    <div class="left">
+                        <h2>Calculadora</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">HTML</button>
+                            <button class="tag">CSS</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">Bootstrap</button>
+                        </div>
+                        <p>Calculadora web com suporte a três temas visuais (claro, escuro e antigo), desenvolvida como um remake da versão anterior, preservando o visual original no tema “antigo”.</p>
+                        <p>A aplicação permite operações com valores decimais, incluindo adição, subtração, multiplicação, divisão, cálculo de porcentagem e fatoriais, oferecendo uma experiência funcional e personalizável.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/calculator" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                            <a href="https://euisaquevenancio.github.io/calculator/" target="_blank">
+                                <button class="view-project-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>21/08/2024</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/calculator-mockup-light-pt-br.png" alt="Mockup da interface do projeto de calculadora minimalista.">
+                    </div>
+                </div>
+                
+                <div class="project" id="fluxosul">
+                    <div class="left">
+                        <h2>FluxoSul</h2>
+                        <div class="tags">
+                            <button class="tag">Website</button>
+                            <button class="tag">HTML</button>
+                            <button class="tag">CSS</button>
+                            <button class="tag">JavaScript</button>
+                            <button class="tag">Bootstrap</button>
+                        </div>
+                        <p>Página web desenvolvida para a FluxoSul – Soluções em Desentupimento, com o objetivo de apresentar a empresa e seus serviços de forma clara e profissional.</p>
+                        <p>O site fortalece a presença online da marca e facilita o contato com clientes por meio de uma navegação simples, acessível e adaptada para diferentes dispositivos.</p>
+                        <div>
+                            <a href="https://github.com/euisaquevenancio/fluxosul-website" target="_blank">
+                                <button class="github-button"><i class="bi bi-github"></i> <span>Repositório</span></button>
+                            </a>
+                            <a href="https://euisaquevenancio.github.io/fluxosul-website/" target="_blank">
+                                <button class="view-project-button"><span>Acessar</span> <i class="bi bi-arrow-up-right"></i></button>
+                            </a>
+                        </div>
+                        <small class="by"><span>Desenvolvido por</span> <a href="https://github.com/euisaquevenancio" target="_blank"><i>isaque-venancio</i></a></small>
+                        <small class="created"><span>Criado em</span> <i>04/01/2026</i></small>
+                    </div>
+                    <div class="right">
+                        <img loading="lazy" src="assets/img/fluxosul-mockup-light-pt-br.png" alt="Mockup da interface do site de serviços hidráulicos FluxoSul.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <a href="https://github.com/euisaquevenancio/" target="_blank"><i class="bi bi-github"></i> euisaquevenancio</a>
+            <a href="https://www.linkedin.com/in/isaque-venancio/" target="_blank"><i class="bi bi-linkedin"></i> isaque-venancio</a>
+            <a href="https://www.instagram.com/euisaquevenancio/" target="_blank"><i class="bi bi-instagram"></i> euisaquevenancio</a>
+        </div>
+        <p>© <span id="currentYear">2026</span> Isaque Venancio. <span id="copyright">Todos os direitos reservados</span>.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+    <script src="assets/js/script.js"></script>    
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/repository.js"></script>
+</body>
+</html>

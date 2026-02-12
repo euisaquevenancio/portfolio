@@ -1,0 +1,125 @@
+main .container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .container #certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .container #certificates .certificate {
+    width: 49%;
+    padding: 38px 3.5%;
+    margin-bottom: 24px;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+body.dark main .container #certificates .certificate {
+    border: 1px solid var(--gray-2);
+    background-color: #232323;
+}
+
+main .container #certificates .certificate:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 8px rgba(55, 55, 55, 0.6);
+}
+
+body.dark main .container #certificates .certificate:hover {
+    box-shadow: 0 2px 8px rgba(200, 200, 200, 0.6);
+}
+
+main .container #certificates .certificate h4 {
+    font-weight: bold;
+    color: var(--black);
+}
+
+body.dark main .container #certificates .certificate h4 {
+    color: var(--white);
+}
+
+main .container #certificates .certificate p {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+main .container #certificates .certificate button {
+    color: #797979;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    font-weight: bold;
+    margin-bottom: 12px;
+    background-color: #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+main .container #certificates .certificate button:hover {
+    background-color: var(--white);
+}
+
+body.dark main .container #certificates .certificate button {
+    color: rgb(196, 196, 196);
+    border: 1px solid var(--gray-2);
+    background-color: rgb(48, 48, 48);
+}
+
+main .container #certificates .certificate button:hover,
+body.dark main .container #certificates .certificate button:hover {
+    color: #529b64;
+    border: 1px solid #529b64;
+}
+
+main .container #certificates .certificate small {
+    display: block;
+}
+
+main .container #certificates .certificate small a,
+main .container #certificates .certificate small i {
+    color: #529b64;
+}
+
+main .container #certificates .certificate small a {
+    text-decoration: none;
+}
+
+main .container #certificates .certificate small a:hover {
+    text-decoration: underline;
+}
+
+main .container #certificates .certificate small {
+    color: var(--black);
+}
+
+body.dark main .container #certificates .certificate small {
+    color: var(--white);
+}
+
+@media (max-width: 1200px) {
+    main .container #certificates .certificate {
+        padding: 38px 5%;
+    }
+}
+
+@media (max-width: 888px) {
+    main .container #certificates .certificate {
+        width: 100%;
+        padding: 28px 32px;
+    }   
+}
+
+@media (max-width: 425.6px) {
+    main .container #certificates .certificate {
+        padding: 38px 7%;
+    }
+    
+    main .container #certificates .certificate button {
+        width: 100%;
+    }
+}

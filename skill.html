@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaque Venancio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/logo-small.png"> <!-- Ícone -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/skill.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- https://simpleicons.org/
+         https://icons8.com.br/
+         https://www.svgrepo.com/ -->
+</head>
+<body>
+    <!-- 1º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="firstNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img loading="lazy" src="assets/img/logo-complete.svg" alt="Isaque Venancio logo" height="66">
+            </a>
+            
+            <i class="bi bi-list" id="sidebarIcon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguage" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualTheme" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 2º cabeçalho -->
+    <nav class="navbar navbar-expand-lg" id="secondNavbar">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Portfólio</h5>
+            <i class="bi bi-x-lg" id="closeSidebarIcon" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <hr>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualLanguageMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">PT-BR</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item language-option" data-language="en-us">EN-US</a></li>
+                        <hr>
+                        <li><a class="active dropdown-item language-option" data-language="pt-br">PT-BR</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="actualThemeMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">Modo claro</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="active dropdown-item theme-option" data-theme="light">Modo claro</a></li>
+                        <hr>
+                        <li><a class="dropdown-item theme-option" data-theme="dark">Modo escuro</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="skill.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="certificate.html">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="container">
+            <div class="left">
+                <h1>Minhas habilidades</h1>
+                <div id="skills">
+                    <p>Transformo ideias em soluções web funcionais e bem organizadas, sempre seguindo boas práticas de desenvolvimento. Trabalho em todas as etapas de uma aplicação, do front-end - criando interfaces responsivas e fáceis de usar - ao back-end, garantindo que tudo funcione de forma integrada e consistente.</p>
+                    <p>Tenho uma base sólida em fundamentos técnicos, o que me ajuda a tomar boas decisões e a me adaptar rapidamente quando preciso aprender novas linguagens, frameworks ou tecnologias de acordo com o projeto.</p>
+                    <p>Busco desenvolver aplicações com código limpo, organizado e fácil de manter, priorizando clareza, escalabilidade e eficiência. Gosto de contribuir com projetos que valorizam boas práticas, aprendizado contínuo e soluções bem pensadas.</p>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Stack</h1>
+                <div class="stack-container">
+                    <h5>Front-end</h5>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <title>HTML</title>
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M41,5h-34l3,34l14,4l14,-4l3,-34z" fill="#ff6d00"></path><path d="M24,8v31.9l11.2,-3.2l2.5,-28.7z" fill="#ff6d00"></path><path d="M24,25v-4h8.6l-0.7,11.5l-7.9,2.6v-4.2l4.1,-1.4l0.3,-4.5zM32.9,17l0.3,-4h-9.2v4z" fill="#ffffff"></path><path d="M24,30.9v4.2l-7.9,-2.6l-0.4,-5.5h4l0.2,2.5zM19.1,17h4.9v-4h-9.1l0.7,12h8.4v-4h-4.6z" fill="#ffffff"></path></g></g>
+                    </svg>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <title>CSS</title>
+                        <g fill="none fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M41,5h-34l3,34l14,4l14,-4l3,-34z" fill="#039be5"></path><path d="M24,8v31.9l11.2,-3.2l2.5,-28.7z" fill="#039be5"></path><path d="M33.1,13h-9.1v4h4.9l-0.3,4h-4.6v4h4.4l-0.3,4.5l-4.1,1.4v4.2l7.9,-2.6l0.7,-11.5v0z" fill="#ffffff"></path><path d="M24,13v4h-8.9l-0.3,-4zM19.4,21l0.2,4h4.4v-4zM19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1,-1.4z" fill="#ffffff"></path></g></g>
+                    </svg>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <title>JavaScript</title>
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M6,42v-36h36v36z" fill="#ffd600"></path><path d="M29.538,32.947c0.692,1.124 1.444,2.201 3.037,2.201c1.338,0 2.04,-0.665 2.04,-1.585c0,-1.101 -0.726,-1.492 -2.198,-2.133l-0.807,-0.344c-2.329,-0.988 -3.878,-2.226 -3.878,-4.841c0,-2.41 1.845,-4.244 4.728,-4.244c2.053,0 3.528,0.711 4.592,2.573l-2.514,1.607c-0.553,-0.988 -1.151,-1.377 -2.078,-1.377c-0.946,0 -1.545,0.597 -1.545,1.377c0,0.964 0.6,1.354 1.985,1.951l0.807,0.344c2.745,1.169 4.293,2.363 4.293,5.047c0,2.892 -2.284,4.477 -5.35,4.477c-2.999,0 -4.702,-1.505 -5.65,-3.368zM17.952,33.029c0.506,0.906 1.275,1.603 2.381,1.603c1.058,0 1.667,-0.418 1.667,-2.043v-10.589h3.333v11.101c0,3.367 -1.953,4.899 -4.805,4.899c-2.577,0 -4.437,-1.746 -5.195,-3.368z" fill="#ffffff"></path></g></g>
+                    </svg>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Bootstrap</title>
+                        <path fill="#7c4dff" d="M7.373,11.443C7.293,9.132,9.094,7,11.529,7h24.946c2.435,0,4.236,2.132,4.155,4.443	c-0.077,2.221,0.023,5.097,0.747,7.443c0.726,2.353,1.951,3.84,3.957,4.031v2.167c-2.006,0.191-3.23,1.678-3.957,4.031	c-0.724,2.345-0.824,5.222-0.747,7.443C40.71,38.868,38.909,41,36.475,41H11.529c-2.434,0-4.236-2.132-4.155-4.443	c0.077-2.221-0.023-5.097-0.747-7.443c-0.726-2.353-1.954-3.84-3.96-4.031v-2.167c2.006-0.191,3.233-1.678,3.96-4.031	C7.35,16.54,7.451,13.664,7.373,11.443z"></path><path fill="#fff" d="M27.073,23.464v-0.028c1.853-0.32,3.299-2.057,3.299-3.97c0-1.352-0.52-2.498-1.504-3.312	c-0.981-0.812-2.357-1.241-3.981-1.241H17.45V33.08h7.475c1.942,0,3.555-0.474,4.663-1.372c1.109-0.899,1.696-2.207,1.696-3.783	C31.283,25.544,29.593,23.756,27.073,23.464z M23.59,22.608h-3.181V17.29h3.784c2.076,0,3.219,0.911,3.219,2.565	C27.413,21.63,26.055,22.608,23.59,22.608z M20.409,24.834h3.759c2.716,0,4.092,0.981,4.092,2.916c0,1.932-1.357,2.953-3.925,2.953	h-3.926V24.834z"></path>
+                    </svg>
+                </div>
+                <div class="stack-container">
+                    <h5>Back-end</h5>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Java</title>
+                        <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#F44336" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><g><path fill="#1565C0" d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path><path fill="#1565C0" d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><path fill="#1565C0" d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><path fill="#1565C0" d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><path fill="#1565C0" d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path></g>
+                    </svg>
+                    <img loading="lazy" class="stack" src="https://img.icons8.com/fluency/96/node-js.png" alt="node-js" title="Node.js"/>
+                    <svg class="stack" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><title>API</title><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.93047 13.2107L6.66782 10.3728H6.73089L7.45854 13.2107H5.93047ZM8.17164 16H9.66089L7.56041 9H5.93047L3.82999 16H5.20767L5.65396 14.2876H7.73505L8.17164 16Z" fill="#121923"></path> <path d="M10.5389 9V16H11.9166V13.7782H13.0323C14.541 13.7782 15.5015 12.8517 15.5015 11.3964C15.5015 9.92654 14.5701 9 13.1003 9H10.5389ZM11.9166 10.1303H12.751C13.6533 10.1303 14.1044 10.5475 14.1044 11.3867C14.1044 12.2308 13.6533 12.6431 12.751 12.6431H11.9166V10.1303Z" fill="#121923"></path> <path d="M21.1675 16V14.8164H19.717V10.1836H21.1675V9H16.8889V10.1836H18.3393V14.8164H16.8889V16H21.1675Z" fill="#121923"></path> </g></svg>
+                    <svg class="stack" style="fill: #777bb3;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>PHP</title><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"/></svg>
+                </div>
+                <div class="stack-container">
+                    <h5>Banco de dados</h5>
+                    <img loading="lazy" title="SQL" class="stack" src="https://img.icons8.com/fluency/96/sql.png" alt="sql"/>
+                    <img loading="lazy" title="MySQL" class="stack" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-mysql-an-open-source-relational-database-management-system-logo-color-tal-revivo.png" alt="external-mysql-an-open-source-relational-database-management-system-logo-color-tal-revivo"/>
+                    <svg class="stack" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><title>SQLite</title><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><linearGradient id="a" x1="-118.318" y1="45.638" x2="-116.751" y2="45.638" gradientTransform="matrix(0, 11.486, 11.486, 0, -510.889, 1363.307)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#97d9f6"></stop><stop offset="0.92" stop-color="#0f80cc"></stop><stop offset="1" stop-color="#0f80cc"></stop></linearGradient></defs><path d="M23.192,3.242H5.623A2.147,2.147,0,0,0,3.482,5.383V24.759A2.147,2.147,0,0,0,5.623,26.9H17.195C17.063,21.142,19.03,9.968,23.192,3.242Z" style="fill:#0f80cc"></path><path d="M22.554,3.867H5.623A1.518,1.518,0,0,0,4.107,5.383V23.345a42.01,42.01,0,0,1,13.569-2.684A123.555,123.555,0,0,1,22.554,3.867Z" style="fill:url(#a)"></path><path d="M27.29,2.608c-1.2-1.073-2.66-.642-4.1.634-.213.19-.426.4-.638.625A25.4,25.4,0,0,0,17.1,15a10.178,10.178,0,0,1,.634,1.822c.036.14.069.272.1.384.062.265.1.437.1.437s-.022-.083-.113-.346l-.059-.17c-.01-.027-.023-.059-.038-.094-.16-.373-.6-1.16-.8-1.5-.167.493-.315.954-.438,1.371a12.131,12.131,0,0,1,.908,2.8s-.03-.115-.171-.515a19.037,19.037,0,0,0-.9-1.708,4.037,4.037,0,0,0-.264,1.724,6.009,6.009,0,0,1,.493,1.383c.334,1.283.566,2.846.566,2.846s.008.1.02.263a26.145,26.145,0,0,0,.065,3.205,11.362,11.362,0,0,0,.584,3.1l.18-.1a13.859,13.859,0,0,1-.478-4.628,35.269,35.269,0,0,1,1.938-9.688c2.01-5.308,4.8-9.568,7.35-11.6-2.326,2.1-5.474,8.9-6.417,11.418a45.656,45.656,0,0,0-2.254,8A6.211,6.211,0,0,1,21.39,20s1.233-1.521,2.674-3.693a26.206,26.206,0,0,0-2.755.733c-.7.294-.889.394-.889.394a23.939,23.939,0,0,1,4.215-2.007c2.676-4.215,5.592-10.2,2.656-12.824" style="fill:#003b57"></path></g></svg>
+                    <img loading="lazy" title="PostgreSQL" class="stack" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-color-tal-revivo.png" alt="external-postgre-sql-a-free-and-open-source-relational-database-management-system-logo-color-tal-revivo"/>
+                </div>
+                <div class="stack-container">
+                    <h5>Ferramentas</h5>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Git</title>
+                        <path fill="#F4511E" d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z"></path>
+                    </svg>
+                    <img loading="lazy" title="GitHub" class="stack" src="https://img.icons8.com/windows/96/github.png" alt="github"/>
+                    <img loading="lazy" title="Docker" class="stack" src="https://img.icons8.com/fluency/96/docker.png" alt="docker"/>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Visual Studio Code</title>
+                        <path fill="#29b6f6" d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z"></path><path fill="#0277bd" d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z"></path><path fill="#0288d1" d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z"></path>
+                    </svg>
+                    <img loading="lazy" title="ChatGPT" class="stack" src="https://img.icons8.com/ios/100/chatgpt.png" alt="chatgpt"/>
+                    <img loading="lazy" title="Google Gemini AI" class="stack" src="assets/img/gemini-color.svg" alt="google-gemini">
+                    <img loading="lazy" title="Postman" class="stack" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" alt="external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo"/>
+                    <svg class="stack" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vercel</title><path d="m12 1.608 12 20.784H0Z"/></svg>
+                    <svg class="stack" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Render</title><path d="M18.263.007c-3.121-.147-5.744 2.109-6.192 5.082-.018.138-.045.272-.067.405-.696 3.703-3.936 6.507-7.827 6.507-1.388 0-2.691-.356-3.825-.979a.2024.2024 0 0 0-.302.178V24H12v-8.999c0-1.656 1.338-3 2.987-3h2.988c3.382 0 6.103-2.817 5.97-6.244-.12-3.084-2.61-5.603-5.682-5.75"/></svg>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Figma</title>
+                        <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                    </svg>
+                    <img loading="lazy" title="Claude.AI" class="stack" src="https://img.icons8.com/fluency/96/claude-ai.png" alt="claude-ai"/>
+                    <svg class="stack" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                        <title>Apache NetBeans IDE</title>
+                        <polygon fill="#e0e0e0" points="24,36.992 24,22.9 35,17 35,31"></polygon><polygon fill="#fff" points="24,36.992 24,22.9 13,17 13,31"></polygon><polygon fill="#f5f5f5" points="13,17 24,11.008 35,17 24,22.9"></polygon><polygon fill="#29b6f6" points="24,45 24,36.992 35,31 42,35"></polygon><polygon fill="#0288d1" points="35,17 42,13 42,35 35,31"></polygon><polygon fill="#9ccc65" points="24,3 24,11.008 35,17 42,13"></polygon><polygon fill="#7cb342" points="6,13 13,17 24,11.008 24,3"></polygon><polygon fill="#c2185b" points="6,35 13,31 13,17 6,13"></polygon><polygon fill="#ec407a" points="24,45 24,36.992 13,31 6,35"></polygon>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <a href="https://github.com/euisaquevenancio/" target="_blank"><i class="bi bi-github"></i> euisaquevenancio</a>
+            <a href="https://www.linkedin.com/in/isaque-venancio/" target="_blank"><i class="bi bi-linkedin"></i> isaque-venancio</a>
+            <a href="https://www.instagram.com/euisaquevenancio/" target="_blank"><i class="bi bi-instagram"></i> euisaquevenancio</a>
+        </div>
+        <p>© <span id="currentYear">2026</span> Isaque Venancio. <span id="copyright">Todos os direitos reservados</span>.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+    <script src="assets/js/script.js"></script>    
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+    "themes": [
+        "Modo claro",
+        "Modo escuro"
+    ],
+    "links": [
+        "Sobre mim",
+        "Habilidades",
+        "Projetos",
+        "Certificados"
+    ],
+    "sidebarTitle": "Portfólio",
+    "copyright": "Todos os direitos reservados",
+    "aboutMe": {
+        "title": "Desenvolvedor web",
+        "subtitle": "Analista e Desenvolvedor de Sistemas",
+        "paragraph": "Desenvolvo soluções web completas e escaláveis, atuando no frontend e backend, com criação e consumo de APIs, integração e modelagem de bancos de dados, aplicando boas práticas de programação e organização de código, e atuo principalmente com Java, JavaScript e SQL no desenvolvimento de sistemas web organizados, com foco em qualidade, desempenho, manutenibilidade e evolução das soluções.",
+        "downloadResume": "Baixar currículo"
+    },
+    "skill": {
+        "title": "Minhas habilidades",
+        "paragraph1": "Transformo ideias em soluções web funcionais e bem organizadas, sempre seguindo boas práticas de desenvolvimento. Trabalho em todas as etapas de uma aplicação, do front-end - criando interfaces responsivas e fáceis de usar - ao back-end, garantindo que tudo funcione de forma integrada e consistente.",
+        "paragraph2": "Tenho uma base sólida em fundamentos técnicos, o que me ajuda a tomar boas decisões e a me adaptar rapidamente quando preciso aprender novas linguagens, frameworks ou tecnologias de acordo com o projeto.",
+        "paragraph3": "Busco desenvolver aplicações com código limpo, organizado e fácil de manter, priorizando clareza, escalabilidade e eficiência. Gosto de contribuir com projetos que valorizam boas práticas, aprendizado contínuo e soluções bem pensadas.",
+        "subtitle1": "Banco de dados",
+        "subtitle2": "Ferramentas"
+    },
+    "project": {
+        "title": "Meus projetos",
+        "portfolio": {
+            "title": "Portfólio",
+            "paragraph1": "Meu website pessoal, desenvolvido para apresentar de forma clara e profissional meus projetos, habilidades, certificações, experiências, além das tecnologias que domino como desenvolvedor web.",
+            "paragraph2": "O site conta com temas claro e escuro, oferecendo melhor acessibilidade e conforto visual, além de suporte aos idiomas inglês (en-US) e português (pt-BR), ampliando o alcance e a usabilidade da plataforma."
+        },
+        "witc": {
+            "paragraph1": "Jogo interativo de League of Legends em que o jogador tenta adivinhar um campeão misterioso a partir de características reveladas a cada rodada, utilizando APIs para obter dados atualizados dos campeões.",
+            "paragraph2": "Por meio de feedback visual com cores e indicadores, o jogo orienta o jogador até o acerto dentro de tentativas limitadas, proporcionando uma experiência dinâmica, intuitiva e envolvente."
+        },
+        "witca": {
+            "paragraph1": "API responsável por buscar, organizar e disponibilizar os dados dos campeões de League of Legends utilizados no jogo Who Is That Champion?.",
+            "paragraph2": "Projetada para otimizar o fluxo de informações, a API centraliza o processamento, o agrupamento e o retorno de todo o conteúdo necessário para o funcionamento do jogo de adivinhação, garantindo desempenho, consistência e integração eficiente entre os dados e a aplicação."
+        },
+        "radarpg": {
+            "paragraph1": "Website no formato de rede social, criado para conectar a comunidade de Praia Grande (SP) por meio de notícias e postagens relevantes, fortalecendo a participação e o engajamento local.",
+            "paragraph2": "A plataforma conta com integração de inteligência artificial para análise de imagens e textos, além de um dashboard administrativo que permite gerenciar usuários, conteúdos e interações de forma simples, organizada e acessível."
+        },
+        "edusiga": {
+            "paragraph": "Assistente virtual educacional no formato de ChatBot inteligente, integrada à IA Gemini, da Google, desenvolvida para oferecer suporte aos alunos no uso do SIGA e no aprendizado acadêmico, respondendo perguntas relacionadas às informações e à situação acadêmica do próprio aluno."
+        },
+        "calculator": {
+            "title": "Calculadora",
+            "paragraph1": "Calculadora web com suporte a três temas visuais (claro, escuro e antigo), desenvolvida como um remake da versão anterior, preservando o visual original no tema “antigo”.",
+            "paragraph2": "A aplicação permite operações com valores decimais, incluindo adição, subtração, multiplicação, divisão, cálculo de porcentagem e fatoriais, oferecendo uma experiência funcional e personalizável."
+        },
+        "fluxosul": {
+            "paragraph1": "Página web desenvolvida para a FluxoSul – Soluções em Desentupimento, com o objetivo de apresentar a empresa e seus serviços de forma clara e profissional.",
+            "paragraph2": "O site fortalece a presença online da marca e facilita o contato com clientes por meio de uma navegação simples, acessível e adaptada para diferentes dispositivos."
+        },
+        "viewProjectButton": "Acessar",
+        "githubButton": "Repositório",
+        "bySpan": "Desenvolvido por",
+        "createdSpan": "Criado em"
+    },
+    "certificate": {
+        "title": "Meus certificados",
+        "aedds": {
+            "title": "Análise e Desenvolvimento de Sistemas",
+            "paragraph": "Formação voltada ao desenvolvimento de sistemas e aplicações robustos, com foco em lógica, programação, banco de dados, soluções para web, aplicação de boas práticas, versionamento de código e fundamentos de inteligência artificial.",
+            "type": "Ensino superior",
+            "hour": "2800 horas"
+        },
+        "teipi": {
+            "title": "Técnico em Informática para Internet",
+            "paragraph": "Capacitação para criação, desenvolvimento e manutenção de aplicações web, integrando front-end, back-end e bancos de dados.",
+            "type": "Curso técnico",
+            "issueDate": "mar de 2023",
+            "hour": "3600 horas"
+        },
+        "cod": {
+            "title": "Database Foundations",
+            "paragraph": "Introdução aos fundamentos de bancos de dados, incluindo modelagem, estrutura, consultas SQL e uso do MySQL Workbench.",
+            "type": "Curso",
+            "issueDate": "nov de 2024"
+        },
+        "dfcfe": {
+            "title": "Database Foundations Cumulative Final Exam",
+            "paragraph": "Avaliação prática dos conhecimentos essenciais em bancos de dados e fundamentos de SQL.",
+            "type": "Curso",
+            "issueDate": "nov de 2024"
+        },
+        "jdbaaceep": {
+            "title": "Java do básico ao avançado – com exercícios e projetos",
+            "paragraph": "Aprendizado progressivo da linguagem Java, abordando lógica de programação, conceitos fundamentais, programação orientada a objetos e desenvolvimento de projetos.",
+            "type": "Curso",
+            "issueDate": "jul de 2025",
+            "hour": "29 horas"
+        },
+        "mdj": {
+            "title": "Minicurso de Java",
+            "paragraph": "Introdução prática à programação em Java, com desenvolvimento de aplicação back-end utilizando Maven, Spring Boot e API REST, incluindo Lombok, integração com H2 Database, segurança de dados, tratamento de exceções e deploy da aplicação.",
+            "type": "Curso",
+            "issueDate": "jan de 2026",
+            "hour": "5 horas"
+        },
+        "fdedd": {
+            "title": "Fundamentos de Engenharia de Dados",
+            "paragraph": "Base conceitual sobre tratamento, organização e fluxo de dados, com foco em consultas e suporte à análise e à tomada de decisão.",
+            "type": "Curso",
+            "issueDate": "set de 2024",
+            "hour": "24 horas"
+        },
+        "mpbpbieds": {
+            "title": "Microsoft Power BI Para Business Intelligence e Data Science",
+            "paragraph": "Análise de dados e desenvolvimento de dashboards interativos no Power BI, apoiando a tomada de decisões em inteligência de negócios.",
+            "type": "Curso",
+            "issueDate": "jun de 2025",
+            "hour": "72 horas"
+        },
+        "iaieatd": {
+            "title": "Introdução à IoT e à Transformação Digital",
+            "paragraph": "Introdução aos conceitos de IoT e transformação digital, destacando impactos em processos, negócios e fundamentos de redes.",
+            "type": "Curso",
+            "issueDate": "jun de 2025"
+        },
+        "ic": {
+            "title": "Immediate Conversation",
+            "paragraph": "Desenvolvimento da comunicação em inglês, com foco em conversação prática e situações do dia a dia.",
+            "type": "Curso",
+            "issueDate": "jun de 2023",
+            "hour": "140 horas"
+        },
+        "typeSpan": "Tipo de conteúdo:",
+        "issueDateSpan": "Emitido em:",
+        "hourSpan": "Carga horária:",
+        "viewCertificateButton": "Acessar"
+    },
+    "contact": {
+        "a": "b"
+    }
+}

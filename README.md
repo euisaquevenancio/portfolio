@@ -1,69 +1,61 @@
+<p align="center">
+    <img src="assets/img/logo-complete.svg" alt="Logo Isaque Venancio">
+</p>
+<p align="center">
+    <a href="https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity">
+        <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    </a>
+    <a href="http://shields.io/">
+        <img src="https://img.shields.io/website-up-down-green-red/http/shields.io.svg" />
+    </a>
+    <a href="https://github.com/Naereen/StrapDown.js/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg" />
+    </a>
+</p>
 
-# Portfólio
-
-Portfólio web para documentar meus avanços na programação e aplicar os conhecimentos que venho adquirindo. Desenvolvido com HTML, CSS e JavaScript.
+---
+<p align="center">
+    Página web desenvolvida para o meu portfólio pessoal, com o objetivo de apresentar meu perfil, projetos e habilidades, fortalecer minha presença online e facilitar o contato de forma clara e acessível em qualquer dispositivo. O projeto oferece suporte aos idiomas PT-BR e EN-US, além de alternância entre os temas Claro e Escuro, proporcionando uma experiência personalizada ao usuário.
+</p>
 
 ---
 
-## Screenshots
-
-![Sobre mim - Tema claro - Português (Brasil)](src/img/screenshot-portfolio-1-a.png)
-
-![Competências - Tema claro - Português (Brasil)](src/img/screenshot-portfolio-2-a.png)
-
-![Projetos - Tema claro - Português (Brasil)](src/img/screenshot-portfolio-3-a.png)
-
-![Certificados - Tema claro - Português (Brasil)](src/img/screenshot-portfolio-4-a.png)
-
-![Rodapé - Tema claro - Português (Brasil)](src/img/screenshot-portfolio-5-a.png)
+<p align="center">
+    <img src="assets/img/pagina-inicial.png" alt="Página inicial completa">
+</p>
 
 ---
 
-## Deploy
+## Por que foi construído
+Este projeto foi desenvolvido com o objetivo de demonstrar minhas habilidades em desenvolvimento web, apresentar um pouco mais sobre mim, meus projetos realizados, currículo, certificados e disponibilizar minhas redes sociais para contato.
 
-Para acessar o deploy desse projeto basta *[clicar aqui](https://euisaquevenancio.github.io/portfolio/)* ou acessar a seguinte URL:
+Além de servir como vitrine profissional, o site também representa a aplicação prática dos meus conhecimentos, utilizando tecnologias comuns do mercado e boas práticas de desenvolvimento para construir uma solução funcional, organizada e alinhada a padrões profissionais.
 
-```
-  https://euisaquevenancio.github.io/portfolio/
-```
+## Linguagens & ferramentas
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
----
+## Instrução de uso
 
-## Stack utilizada
-
-### **Frontend:** HTML, CSS, Bootstrap e JavaScript.
-[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js)](https://skillicons.dev)
-
-### **Backend:** JavaScript.  
-[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+Para acessar o projeto, basta **[clicar aqui](https://euisaquevenancio.github.io/portfolio/)**.
 
 ---
 
-## Suporte
-
-Para suporte, caso você encontre algum problema, tenha sugestões de melhorias ou algo do tipo, fique à vontade para adicionar uma **issue** *[clicando aqui](https://github.com/euisaquevenancio/portfolio/issues/new)*!
-
----
-
-## Autores
-
-- *[euisaquevenancio](https://www.github.com/euisaquevenancio)*
-
-## Licença
-
-- Este projeto está sob a licença *[MIT](https://choosealicense.com/licenses/mit/)*
+<p align="center">
+    <img src="assets/img/pagina-habilidades.png" alt="Página incial de minhas habilidades completa">
+</p>
 
 ---
 
-## Outras Screenshots (Tema escuro)
+<p align="center">
+    <img src="assets/img/pagina-projetos.png" alt="Página de projetos completa">
+</p>
 
-![Sobre mim - Tema escuro - English (US)](src/img/screenshot-portfolio-1-b.png)
+---
 
-![Competências - Tema escuro - English (US)](src/img/screenshot-portfolio-2-b.png)
-
-![Projetos - Tema escuro - English (US)](src/img/screenshot-portfolio-3-b.png)
-
-![Certificados - Tema escuro - English (US)](src/img/screenshot-portfolio-4-b.png)
-
-
-![Rodapé - Tema escuro - English (US)](src/img/screenshot-portfolio-5-b.png)
+<p align="center">
+    <img src="assets/img/pagina-certificados.png" alt="Página de certificados completa">
+</p>
