@@ -73,60 +73,60 @@
             "title": "Técnico em Informática para Internet",
             "paragraph": "Capacitação para criação, desenvolvimento e manutenção de aplicações web, integrando front-end, back-end e bancos de dados.",
             "type": "Curso técnico",
-            "issueDate": "mar de 2023",
+            "issueDate": "Mar de 2023",
             "hour": "3600 horas"
         },
         "cod": {
             "title": "Database Foundations",
             "paragraph": "Introdução aos fundamentos de bancos de dados, incluindo modelagem, estrutura, consultas SQL e uso do MySQL Workbench.",
             "type": "Curso",
-            "issueDate": "nov de 2024"
+            "issueDate": "Nov de 2024"
         },
         "dfcfe": {
             "title": "Database Foundations Cumulative Final Exam",
             "paragraph": "Avaliação prática dos conhecimentos essenciais em bancos de dados e fundamentos de SQL.",
             "type": "Curso",
-            "issueDate": "nov de 2024"
+            "issueDate": "Nov de 2024"
         },
         "jdbaaceep": {
             "title": "Java do básico ao avançado – com exercícios e projetos",
             "paragraph": "Aprendizado progressivo da linguagem Java, abordando lógica de programação, conceitos fundamentais, programação orientada a objetos e desenvolvimento de projetos.",
             "type": "Curso",
-            "issueDate": "jul de 2025",
+            "issueDate": "Jul de 2025",
             "hour": "29 horas"
         },
         "mdj": {
             "title": "Minicurso de Java",
             "paragraph": "Introdução prática à programação em Java, com desenvolvimento de aplicação back-end utilizando Maven, Spring Boot e API REST, incluindo Lombok, integração com H2 Database, segurança de dados, tratamento de exceções e deploy da aplicação.",
             "type": "Curso",
-            "issueDate": "jan de 2026",
+            "issueDate": "Jan de 2026",
             "hour": "5 horas"
         },
         "fdedd": {
             "title": "Fundamentos de Engenharia de Dados",
             "paragraph": "Base conceitual sobre tratamento, organização e fluxo de dados, com foco em consultas e suporte à análise e à tomada de decisão.",
             "type": "Curso",
-            "issueDate": "set de 2024",
+            "issueDate": "Set de 2024",
             "hour": "24 horas"
         },
         "mpbpbieds": {
             "title": "Microsoft Power BI Para Business Intelligence e Data Science",
             "paragraph": "Análise de dados e desenvolvimento de dashboards interativos no Power BI, apoiando a tomada de decisões em inteligência de negócios.",
             "type": "Curso",
-            "issueDate": "jun de 2025",
+            "issueDate": "Jun de 2025",
             "hour": "72 horas"
         },
         "iaieatd": {
             "title": "Introdução à IoT e à Transformação Digital",
             "paragraph": "Introdução aos conceitos de IoT e transformação digital, destacando impactos em processos, negócios e fundamentos de redes.",
             "type": "Curso",
-            "issueDate": "jun de 2025"
+            "issueDate": "Jun de 2025"
         },
         "ic": {
             "title": "Immediate Conversation",
             "paragraph": "Desenvolvimento da comunicação em inglês, com foco em conversação prática e situações do dia a dia.",
             "type": "Curso",
-            "issueDate": "jun de 2023",
+            "issueDate": "Jun de 2023",
             "hour": "140 horas"
         },
         "typeSpan": "Tipo de conteúdo:",
