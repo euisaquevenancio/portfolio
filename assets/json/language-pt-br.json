@@ -1,0 +1,169 @@
+{
+    "themes": [
+        "Modo claro",
+        "Modo escuro"
+    ],
+    "links": [
+        "Sobre mim",
+        "Habilidades",
+        "Projetos",
+        "Certificados",
+        "Contato"
+    ],
+    "sidebarTitle": "Portfólio",
+    "copyright": "Todos os direitos reservados",
+    "aboutMe": {
+        "title": "Desenvolvedor web",
+        "subtitle": "Analista e Desenvolvedor de Sistemas",
+        "paragraph": "Desenvolvo soluções web completas e escaláveis, atuando no front-end e back-end, com criação e consumo de APIs, integração e modelagem de bancos de dados, aplicando boas práticas de programação e organização de código, e atuo principalmente com Java, JavaScript e SQL no desenvolvimento de sistemas web organizados, com foco em qualidade, desempenho, manutenibilidade e evolução das soluções.",
+        "downloadResume": "Baixar currículo"
+    },
+    "skill": {
+        "title": "Minhas habilidades",
+        "paragraph": "Atuo no desenvolvimento de sistemas e aplicações web responsivas, trabalhando de forma full stack no front-end e back-end, com experiência em APIs, bancos de dados, integração entre serviços e deploy em produção, sempre com foco em organização, escalabilidade, performance e boas práticas.",
+        "skill1": {
+            "title": "Desenvolvimento Front-end:",
+            "paragraph": "Crio interfaces modernas e responsivas, priorizando experiência do usuário (UX/UI), acessibilidade e performance."
+        },
+        "skill2": {
+            "title": "Desenvolvimento Back-End:",
+            "paragraph": "Estruturo regras de negócio, autenticação e integrações com PostgreSQL, utilizando Docker para padronização e organização dos ambientes."
+        },
+        "skill3": {
+            "title": "Desenvolvimento e testes de APIs RESTful:",
+            "paragraph": "Projeto, implemento e valido APIs com Java e Node.js, garantindo comunicação eficiente e consistente entre serviços."
+        },
+        "skill4": {
+            "title": "Modelagem e gerenciamento de bancos de dados:",
+            "paragraph": "Modelo, organizo e otimizo bancos de dados SQL e NoSQL, assegurando integridade e desempenho das aplicações."
+        },
+        "skill5": {
+            "title": "Consumo de APIs e manipulação de dados:",
+            "paragraph": "Integro sistemas e realizo tratamento estruturado de dados, garantindo consistência e confiabilidade das informações."
+        },
+        "skill6": {
+            "title": "Deploy e gerenciamento de domínios:",
+            "paragraph": "Publico, configuro e mantenho aplicações em ambiente de produção, assegurando estabilidade e disponibilidade."
+        },
+        "subtitle1": "Banco de dados",
+        "subtitle2": "Ferramentas"
+    },
+    "project": {
+        "title": "Meus projetos",
+        "portfolio": {
+            "title": "Portfólio",
+            "paragraph": "Website pessoal desenvolvido para apresentar de forma clara e profissional meus projetos, habilidades, certificações e experiências como desenvolvedor web, estruturado para organizar e destacar as tecnologias que domino, contando com suporte a temas claro e escuro para melhor acessibilidade e conforto visual, além de internacionalização nos idiomas inglês (en-US) e português (pt-BR), garantindo maior alcance e usabilidade da plataforma."
+        },
+        "witc": {
+            "paragraph": "Jogo interativo inspirado no universo de League of Legends, desenvolvido para desafiar o jogador a adivinhar um campeão misterioso a partir de características reveladas progressivamente, utilizando APIs para obtenção de dados atualizados, processando as tentativas do usuário e fornecendo feedback visual por meio de cores e indicadores comparativos, garantindo uma experiência dinâmica, intuitiva e consistente dentro de um número limitado de tentativas."
+        },
+        "witca": {
+            "paragraph": "API desenvolvida para captura, processamento e padronização de dados do universo de League of Legends, responsável por coletar informações atualizadas dos campeões, organizá-las e disponibilizá-las em formato estruturado (JSON) para consumo pela aplicação principal, garantindo desempenho e integração eficiente entre os serviços."
+        },
+        "radarpg": {
+            "paragraph": "Website em formato de rede social desenvolvido para conectar a comunidade de Praia Grande (SP) por meio de notícias e postagens relevantes, promovendo engajamento local, com estrutura voltada para organização e acessibilidade, integrando recursos de inteligência artificial para análise de imagens e textos e um dashboard administrativo para gerenciamento eficiente de usuários, conteúdos e interações, garantindo moderação estruturada e boa performance da aplicação."
+        },
+        "edusiga": {
+            "paragraph": "Assistente virtual educacional em formato de chatbot inteligente, integrado à IA Gemini do Google, desenvolvido para apoiar os alunos da FATEC Praia Grande no uso do SIGA e no acompanhamento acadêmico, processando perguntas e fornecendo respostas contextualizadas com agilidade e integração eficiente aos serviços institucionais."
+        },
+        "calculator": {
+            "title": "Calculadora",
+            "paragraph": "Calculadora web desenvolvida como remake de versão anterior, mantendo o visual original no tema “antigo” e incorporando suporte a três temas visuais (claro, escuro e clássico), estruturada para realizar operações com valores decimais, incluindo adição, subtração, multiplicação, divisão, cálculo de porcentagem e fatoriais, garantindo funcionalidade consistente, personalização visual e experiência de uso intuitiva."
+        },
+        "fluxosul": {
+            "paragraph": "Página web desenvolvida para a FluxoSul – Soluções em Desentupimento, criada para apresentar a empresa e seus serviços de forma clara e profissional, estruturada para fortalecer a presença online da marca e facilitar o contato com clientes por meio de navegação simples, acessível e responsiva, garantindo boa usabilidade, adaptação a diferentes dispositivos e comunicação eficiente."
+        },
+        "viewProjectButton": "Acessar",
+        "githubButton": "Repositório",
+        "bySpan": "Desenvolvido por",
+        "createdSpan": "Criado em"
+    },
+    "certificate": {
+        "title": "Meus certificados",
+        "aedds": {
+            "title": "Análise e Desenvolvimento de Sistemas",
+            "paragraph": "Formação voltada ao desenvolvimento de sistemas e aplicações robustos, com foco em lógica, programação, banco de dados, soluções para web, aplicação de boas práticas, versionamento de código e fundamentos de inteligência artificial.",
+            "type": "Ensino superior",
+            "hour": "2800 horas"
+        },
+        "teipi": {
+            "title": "Técnico em Informática para Internet",
+            "paragraph": "Capacitação para criação, desenvolvimento e manutenção de aplicações web, integrando front-end, back-end e bancos de dados.",
+            "type": "Curso técnico",
+            "issueDate": "mar de 2023",
+            "hour": "3600 horas"
+        },
+        "cod": {
+            "title": "Database Foundations",
+            "paragraph": "Introdução aos fundamentos de bancos de dados, incluindo modelagem, estrutura, consultas SQL e uso do MySQL Workbench.",
+            "type": "Curso",
+            "issueDate": "nov de 2024"
+        },
+        "dfcfe": {
+            "title": "Database Foundations Cumulative Final Exam",
+            "paragraph": "Avaliação prática dos conhecimentos essenciais em bancos de dados e fundamentos de SQL.",
+            "type": "Curso",
+            "issueDate": "nov de 2024"
+        },
+        "jdbaaceep": {
+            "title": "Java do básico ao avançado – com exercícios e projetos",
+            "paragraph": "Aprendizado progressivo da linguagem Java, abordando lógica de programação, conceitos fundamentais, programação orientada a objetos e desenvolvimento de projetos.",
+            "type": "Curso",
+            "issueDate": "jul de 2025",
+            "hour": "29 horas"
+        },
+        "mdj": {
+            "title": "Minicurso de Java",
+            "paragraph": "Introdução prática à programação em Java, com desenvolvimento de aplicação back-end utilizando Maven, Spring Boot e API REST, incluindo Lombok, integração com H2 Database, segurança de dados, tratamento de exceções e deploy da aplicação.",
+            "type": "Curso",
+            "issueDate": "jan de 2026",
+            "hour": "5 horas"
+        },
+        "fdedd": {
+            "title": "Fundamentos de Engenharia de Dados",
+            "paragraph": "Base conceitual sobre tratamento, organização e fluxo de dados, com foco em consultas e suporte à análise e à tomada de decisão.",
+            "type": "Curso",
+            "issueDate": "set de 2024",
+            "hour": "24 horas"
+        },
+        "mpbpbieds": {
+            "title": "Microsoft Power BI Para Business Intelligence e Data Science",
+            "paragraph": "Análise de dados e desenvolvimento de dashboards interativos no Power BI, apoiando a tomada de decisões em inteligência de negócios.",
+            "type": "Curso",
+            "issueDate": "jun de 2025",
+            "hour": "72 horas"
+        },
+        "iaieatd": {
+            "title": "Introdução à IoT e à Transformação Digital",
+            "paragraph": "Introdução aos conceitos de IoT e transformação digital, destacando impactos em processos, negócios e fundamentos de redes.",
+            "type": "Curso",
+            "issueDate": "jun de 2025"
+        },
+        "ic": {
+            "title": "Immediate Conversation",
+            "paragraph": "Desenvolvimento da comunicação em inglês, com foco em conversação prática e situações do dia a dia.",
+            "type": "Curso",
+            "issueDate": "jun de 2023",
+            "hour": "140 horas"
+        },
+        "typeSpan": "Tipo de conteúdo:",
+        "issueDateSpan": "Emitido em:",
+        "hourSpan": "Carga horária:",
+        "viewCertificateButton": "Acessar"
+    },
+    "contact": {
+        "title": "Vamos conversar?",
+        "paragraph": "Estou disponível para novas oportunidades, projetos e conexões. Feedbacks também são sempre bem-vindos! Entre em contato, será um prazer conversar com você.",
+        "subtitle": "Entre em contato",
+        "labelName": "Nome",
+        "inputNamePlaceholder": "Digite seu nome",
+        "nameHelp": "O nome deve ter entre 2 e 100 caracteres.",
+        "labelEmail": "E-mail",
+        "inputEmailPlaceholder": "Digite seu e-mail",
+        "emailHelp": "Por favor, informe um endereço de e-mail válido.",
+        "labelMessage": "Mensagem",
+        "textareaMessagePlaceholder": "Digite sua mensagem",
+        "messageHelp": "A mensagem deve ter entre 10 e 5000 caracteres.",
+        "formButton": "Enviar mensagem"
+    }
+}

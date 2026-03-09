@@ -1,0 +1,261 @@
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container .left {
+    width: 40%;
+}
+
+main .container .right {
+    width: 55%;
+}
+
+main .container .left #socialMedia a {
+    color: #797979;
+    text-decoration: none;
+}
+
+main .container .left #socialMedia a i {
+    color: #797979;
+    font-size: 30px;
+    padding: 8px 14px;
+    margin-right: 14px;
+    border-radius: 5px;
+    border: 2px solid var(--gray);
+    background-color: #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+main .container .left button:hover,
+main .container .left #socialMedia a i:hover {
+    background-color: var(--white);
+}
+
+main .container .left #socialMedia p a {
+    transition: 0.3s ease-in-out;
+}
+
+body.dark main .container .left button,
+body.dark main .container .left #socialMedia a,
+body.dark main .container .left #socialMedia a i {
+    color: rgb(196, 196, 196);
+}
+
+body.dark main .container .left button,
+body.dark main .container .left #socialMedia a i {
+    background-color: rgb(48, 48, 48);
+}
+
+body.dark main .container .left button:hover,
+body.dark main .container .left #socialMedia a i:hover {
+    border: 2px solid var(--white);
+    background-color: var(--black-2);
+}
+
+main .container .left button:hover,
+body.dark main .container .left button:hover {
+    color: #529b64;
+    border: 2px solid #529b64;
+}
+
+main .container .left #socialMedia p:nth-child(1) a:hover,
+main .container .left #socialMedia a:hover i.bi-github {
+    color: var(--black-2);
+}
+main .container .left #socialMedia a:hover i.bi-github {
+    border: 2px solid var(--black-2);
+}
+
+body.dark main .container .left #socialMedia p:nth-child(1) a:hover,
+body.dark main .container .left #socialMedia a:hover i.bi-github {
+    color: var(--white);
+}
+body.dark main .container .left #socialMedia a:hover i.bi-github {
+    border: 2px solid var(--white);
+}
+
+main .container .left #socialMedia p:nth-child(2) a:hover,
+main .container .left #socialMedia p:nth-child(2) a:hover .bi-linkedin,
+body.dark main .container .left #socialMedia a:hover i.bi-linkedin {
+    color: #0077b5;
+}
+
+main .container .left #socialMedia a:hover i.bi-linkedin,
+body.dark main .container .left #socialMedia a:hover i.bi-linkedin {
+    border: 2px solid #0077b5;
+}
+
+main .container .left #socialMedia p:nth-child(3) a:hover,
+main .container .left #socialMedia p:nth-child(3) a:hover i.bi-envelope-fill,
+body.dark main .container .left #socialMedia a:hover i.bi-envelope-fill {
+    color: #d76076;
+}
+
+main .container .left #socialMedia a:hover i.bi-envelope-fill,
+body.dark main .container .left #socialMedia a:hover i.bi-envelope-fill {
+    border: 2px solid #d76076;
+}
+
+main .container .left #socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main .container .left #socialMedia p {
+    margin: 0 0 7px 0;
+}
+
+main .container .left #socialMedia p a {
+    display: inline-flex;
+    align-items: center;
+}
+
+main .container .right .form {
+    padding: 33px;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+body.dark main .container .right .form {
+    border: 1px solid var(--gray-2);
+    background-color: #232323;
+}
+
+main .container .right .form h3 {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+main .container .right .form .form-text {
+    display: none;
+}
+
+body.dark main .container .right .form h3,
+body.dark main .container .right .form label,
+body.dark main .container .right .form .form-text {
+    color: var(--white);
+}
+
+main .container .right .form label {
+    font-weight: bold;
+}
+
+main .container .right .form input,
+main .container .right .form textarea {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    background-color: #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+main .container .right .form input:focus,
+main .container .right .form textarea:focus {
+    box-shadow: 0 0 0 1px var(--gray);
+}
+
+main .container .right .form input::placeholder,
+main .container .right .form textarea::placeholder {
+    color: #797979;    
+}
+
+body.dark main .container .right .form input,
+body.dark main .container .right .form textarea {
+    color: var(--white);
+    background-color: rgb(48, 48, 48);
+}
+
+body.dark main .container .right .form input::placeholder,
+body.dark main .container .right .form textarea::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+main .container .right .form textarea {
+    resize: none;
+}
+
+main .container .right button {
+    width: 100%;
+    color: #797979;
+    font-size: 18px;
+    padding: 12px 38px;
+    border-radius: 5px;
+    border: 2px solid var(--gray);
+    font-weight: bold;
+    margin-bottom: 12px;
+    background-color: #f7f7f7;
+    transition: 0.3s ease-in-out;
+}
+
+main .container .right button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+main .container .right button:hover {
+    background-color: var(--white);
+}
+
+body.dark main .container .right button {
+    color: rgb(196, 196, 196);
+    background-color: rgb(48, 48, 48);
+}
+
+body.dark main .container .right button:hover {
+    border: 2px solid var(--white);
+    background-color: var(--black-2);
+}
+
+main .container .right button:hover,
+body.dark main .container .right button:hover {
+    color: #529b64;
+    border: 2px solid #529b64;
+}
+
+.swal2-modal {
+    transition: 0.3s ease-in-out;
+}
+.swal2-modal,
+body.light .swal2-modal {
+    border: 1px solid var(--gray);
+}
+
+.swal2-modal:hover {
+    transform: scale(1.02);
+}
+
+body.dark .swal2-modal {
+    border: 1px solid var(--gray-2);
+}
+
+@media (max-width: 1200px) {
+    main .container {
+        flex-direction: column;
+    }
+
+    main .container .left,
+    main .container .right {
+        width: 100%;
+    }
+    
+    main .container .right {
+        margin-top: 44px;
+    }
+}
+
+@media (max-width: 425.8px) {
+    main .container .right .form {
+        padding: 28px 22px;
+    }
+}
+
+@media (max-width: 375.8px) {
+    main .container .left #socialMedia a i {
+        font-size: 24px;
+        padding: 8px 14px;
+    }
+}

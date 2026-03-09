@@ -1,0 +1,169 @@
+{
+    "themes": [
+        "Light mode",
+        "Dark mode"
+    ],
+    "links": [
+        "About Me",
+        "Skills",
+        "Projects",
+        "Certificates",
+        "Contact"
+    ],
+    "sidebarTitle": "Portfolio",
+    "copyright": "All rights reserved",
+    "aboutMe": {
+        "title": "Web Developer",
+        "subtitle": "Systems Analyst and Developer",
+        "paragraph": "I develop complete and scalable web solutions, working across both the front-end and back-end, with the creation and consumption of APIs, integration and modeling of databases, applying best programming practices and clean code organization. I work primarily with Java, JavaScript, and SQL to build well-structured web systems, focusing on quality, performance, maintainability, and the continuous evolution of solutions.",
+        "downloadResume": "Download resume"
+    },
+    "skill": {
+        "title": "My Skills",
+          "paragraph": "I work in the development of responsive web systems and applications, operating as a full stack developer across front-end and back-end, with experience in APIs, databases, service integration, and production deployment, always focusing on organization, scalability, performance, and best practices.",
+        "skill1": {
+            "title": "Front-end Development:",
+            "paragraph": "I create modern and responsive interfaces, prioritizing user experience (UX/UI), accessibility, and performance."
+        },
+        "skill2": {
+            "title": "Back-End Development:",
+            "paragraph": "I structure business logic, authentication, and integrations with PostgreSQL, using Docker to standardize and organize environments."
+        },
+        "skill3": {
+            "title": "RESTful API Development and Testing:",
+            "paragraph": "I design, implement, and validate APIs using Java and Node.js, ensuring efficient and consistent communication between services."
+        },
+        "skill4": {
+            "title": "Database Modeling and Management:",
+            "paragraph": "I model, organize, and optimize SQL and NoSQL databases, ensuring application integrity and performance."
+        },
+        "skill5": {
+            "title": "API Integration and Data Handling:",
+            "paragraph": "I integrate systems and perform structured data processing, ensuring consistency and reliability of information."
+        },
+        "skill6": {
+            "title": "Deployment and Domain Management:",
+            "paragraph": "I publish, configure, and maintain applications in production environments, ensuring stability and availability."
+        },
+        "subtitle1": "Databases",
+        "subtitle2": "Tools"
+    },
+    "project": {
+        "title": "My projects",
+        "portfolio": {
+            "title": "Portfolio",
+            "paragraph": "Personal website developed to clearly and professionally present my projects, skills, certifications, and experience as a web developer, structured to organize and highlight the technologies I work with, featuring light and dark themes for improved accessibility and visual comfort, as well as internationalization support in English (en-US) and Portuguese (pt-BR), ensuring broader reach and platform usability."
+        },
+        "witc": {
+            "paragraph": "Interactive game inspired by the League of Legends universe, developed to challenge players to guess a mystery champion based on progressively revealed characteristics, using APIs to obtain up-to-date data, processing user attempts and providing visual feedback through colors and comparative indicators, ensuring a dynamic, intuitive, and consistent experience within a limited number of attempts."
+        },
+        "witca": {
+            "paragraph": "API developed for data collection, processing, and standardization within the League of Legends universe, responsible for gathering up-to-date champion information, organizing it, and delivering it in a structured (JSON) format for consumption by the main application, ensuring performance and efficient integration between services."
+        },
+        "radarpg": {
+            "paragraph": "Social network-style website developed to connect the community of Praia Grande (SP) through relevant news and posts, promoting local engagement, structured with a focus on organization and accessibility, integrating artificial intelligence features for image and text analysis, as well as an administrative dashboard for efficient management of users, content, and interactions, ensuring structured moderation and strong application performance."
+        },
+        "edusiga": {
+            "paragraph": "Educational virtual assistant in the form of an intelligent chatbot, integrated with Google’s Gemini AI, developed to support students of FATEC Praia Grande in using SIGA and monitoring their academic progress, processing questions and providing contextualized responses with agility and efficient integration with institutional services."
+        },
+        "calculator": {
+            "title": "Calculator",
+            "paragraph": "Web calculator developed as a remake of a previous version, preserving the original design in the “classic” theme and incorporating support for three visual themes (light, dark, and classic), structured to perform decimal operations including addition, subtraction, multiplication, division, percentage calculation, and factorials, ensuring consistent functionality, visual customization, and an intuitive user experience."
+        },
+        "fluxosul": {
+            "paragraph": "Website developed for FluxoSul – Soluções em Desentupimento, created to clearly and professionally present the company and its services, structured to strengthen the brand’s online presence and facilitate customer contact through simple, accessible, and responsive navigation, ensuring usability, adaptability across devices, and effective communication."
+        },
+        "viewProjectButton": "View",
+        "githubButton": "Repository",
+        "bySpan": "Developed by",
+        "createdSpan": "Created on"
+    },
+    "certificate": {
+        "title": "My Certificates",
+        "aedds": {
+            "title": "Análise e Desenvolvimento de Sistemas",
+            "paragraph": "Education focused on the development of robust systems and applications, with emphasis on logic, programming, databases, web solutions, best practices, code versioning, and fundamentals of artificial intelligence.",
+            "type": "Higher education",
+            "hour": "2800 hours"
+        },
+        "teipi": {
+            "title": "Técnico em Informática para Internet",
+            "paragraph": "Training focused on the creation, development, and maintenance of web applications, integrating front-end, back-end, and databases.",
+            "type": "Technical course",
+            "issueDate": "Mar 2023",
+            "hour": "3600 hours"
+        },
+        "cod": {
+            "title": "Database Foundations",
+            "paragraph": "Introduction to database fundamentals, including modeling, structure, SQL queries, and the use of MySQL Workbench.",
+            "type": "Course",
+            "issueDate": "Nov 2024"
+        },
+        "dfcfe": {
+            "title": "Database Foundations Cumulative Final Exam",
+            "paragraph": "Practical assessment of essential knowledge in databases and SQL fundamentals.",
+            "type": "Course",
+            "issueDate": "Nov 2024"
+        },
+        "jdbaaceep": {
+            "title": "Java do básico ao avançado – com exercícios e projetos",
+            "paragraph": "Progressive learning of the Java language, covering programming logic, fundamental concepts, object-oriented programming, and project development.",
+            "type": "Course",
+            "issueDate": "Jul 2025",
+            "hour": "29 hours"
+        },
+        "mdj": {
+            "title": "Minicurso de Java",
+            "paragraph": "Hands-on introduction to Java programming, with back-end application development using Maven, Spring Boot, and REST API, including Lombok, H2 Database integration, data security, exception handling, and application deployment.",
+            "type": "Course",
+            "issueDate": "Jan 2026",
+            "hour": "5 hours"
+        },
+        "fdedd": {
+            "title": "Fundamentos de Engenharia de Dados",
+            "paragraph": "Conceptual foundation on data processing, organization, and flow, with a focus on queries and support for analysis and decision-making.",
+            "type": "Course",
+            "issueDate": "Sep 2024",
+            "hour": "24 hours"
+        },
+        "mpbpbieds": {
+            "title": "Microsoft Power BI Para Business Intelligence e Data Science",
+            "paragraph": "Data analysis and development of interactive dashboards in Power BI, supporting decision-making in business intelligence.",
+            "type": "Course",
+            "issueDate": "Jun 2025",
+            "hour": "72 hours"
+        },
+        "iaieatd": {
+            "title": "Introdução à IoT e à Transformação Digital",
+            "paragraph": "Introduction to IoT concepts and digital transformation, highlighting impacts on processes, business, and networking fundamentals.",
+            "type": "Course",
+            "issueDate": "Jun 2025"
+        },
+        "ic": {
+            "title": "Immediate Conversation",
+            "paragraph": "Development of English communication skills, focused on practical conversation and everyday situations.",
+            "type": "Course",
+            "issueDate": "Jun 2023",
+            "hour": "140 hours"
+        },
+        "typeSpan": "Content type:",
+        "issueDateSpan": "Issued on:",
+        "hourSpan": "Workload:",
+        "viewCertificateButton": "View"
+    },
+    "contact": {
+        "title": "Let's talk?",
+        "paragraph": "I’m available for new opportunities, projects, and connections. Feedback is always welcome as well! Feel free to reach out. It will be a pleasure to talk with you.",
+        "subtitle": "Get in touch",
+        "labelName": "Name",
+        "inputNamePlaceholder": "Enter your name",
+        "nameHelp": "The name must be between 2 and 100 characters long.",
+        "labelEmail": "Email",
+        "inputEmailPlaceholder": "Enter your email",
+        "emailHelp": "Please enter a valid email address.",
+        "labelMessage": "Message",
+        "textareaMessagePlaceholder": "Enter your message",
+        "messageHelp": "The message must be between 10 and 5000 characters long.",
+        "formButton": "Send message"
+    }
+}
