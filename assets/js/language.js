@@ -113,11 +113,7 @@ async function changeLanguage(language) {
         document.querySelector("#whoIsThatChampionAPI img").src = "assets/img/mockup/witca-mockup-" + storagedTheme + "-" + language +".png";
         
         document.querySelector("#radarPraiaGrande p").textContent = data.project.radarpg.paragraph;
-        if (language == "pt-br") {
-            document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + storagedTheme +"-1.png";
-        } else {
-            document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + storagedTheme +"-2.png";
-        }
+        document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + storagedTheme + "-" + language +".png";
 
         document.querySelector("#edusiga p").textContent = data.project.edusiga.paragraph;
 
@@ -128,6 +124,32 @@ async function changeLanguage(language) {
         document.querySelector("#fluxosul p").textContent = data.project.fluxosul.paragraph;
         document.querySelector("#fluxosul img").src = "assets/img/mockup/fluxosul-mockup-" + storagedTheme + "-" + language +".png";
 
+        document.querySelector("#grupoSosSolucoes p").textContent = data.project.grupoSosSolucoes.paragraph;
+        document.querySelector("#grupoSosSolucoes img").src = "assets/img/mockup/gss-mockup-" + storagedTheme + "-" + language +".png";
+        
+        document.querySelector("#kraSolutions p").textContent = data.project.kraSolutions.paragraph;
+        document.querySelector("#kraSolutions img").src = "assets/img/mockup/ks-mockup-" + storagedTheme + "-" + language +".png";
+
+        document.querySelector("#autoRelatoriosAprovadosVexpenses h2").textContent = data.project.autoRelatoriosAprovadosVexpenses.title;
+        document.querySelector("#autoRelatoriosAprovadosVexpenses p").textContent = data.project.autoRelatoriosAprovadosVexpenses.paragraph;;
+        document.querySelector("#autoRelatoriosAprovadosVexpenses img").src = "assets/img/mockup/arav-mockup-" + storagedTheme + "-" + language +".png";
+
+        document.querySelector("#autoTicketsAbec h2").textContent = data.project.autoTicketsAbec.title;
+        document.querySelector("#autoTicketsAbec p").textContent = data.project.autoTicketsAbec.paragraph;
+        document.querySelector("#autoTicketsAbec img").src = "assets/img/mockup/ata-mockup-" + storagedTheme + "-" + language +".png";
+
+        document.querySelector("#apiRelatoriosAprovadosVexpenses h2").textContent = data.project.apiRelatoriosAprovadosVexpenses.title;
+        document.querySelector("#apiRelatoriosAprovadosVexpenses p").textContent = data.project.apiRelatoriosAprovadosVexpenses.paragraph;
+        document.querySelector("#apiRelatoriosAprovadosVexpenses img").src = "assets/img/mockup/rva-mockup-" + storagedTheme + "-" + language +".png";
+
+        document.querySelector("#apiRelatoriosPendentesVexpenses h2").textContent = data.project.apiRelatoriosPendentesVexpenses.title;
+        document.querySelector("#apiRelatoriosPendentesVexpenses p").textContent = data.project.apiRelatoriosPendentesVexpenses.paragraph;
+        if (language == "pt-br") {
+            document.querySelector("#apiRelatoriosPendentesVexpenses img").src = "assets/img/mockup/rva-mockup-" + storagedTheme + "-en-us.png";
+        } else {
+            document.querySelector("#apiRelatoriosPendentesVexpenses img").src = "assets/img/mockup/rva-mockup-" + storagedTheme + "-pt-br.png";
+        }
+        
         document.querySelectorAll(".view-project-button span").forEach(button => {
             button.textContent = data.project.viewProjectButton;
         });
