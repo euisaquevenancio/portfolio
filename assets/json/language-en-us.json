@@ -73,6 +73,28 @@
         "fluxosul": {
             "paragraph": "Website developed for FluxoSul – Soluções em Desentupimento, created to clearly and professionally present the company and its services, structured to strengthen the brand’s online presence and facilitate customer contact through simple, accessible, and responsive navigation, ensuring usability, adaptability across devices, and effective communication."
         },
+            "grupoSosSolucoes": {
+            "paragraph": "Institutional website developed for Grupo SOS Soluções, a consulting company, as a redesign proposal for its existing platform, aiming to modernize its digital identity and improve its corporate presentation by organizing information about the company's history, achievements, and services, while providing accessible and intuitive contact channels, ensuring responsive navigation, effective communication, and an improved visitor experience."
+        },
+        "kraSolutions": {
+            "paragraph": "Institutional website developed for KRA Solutions, a company specializing in information technology, designed to showcase its services, history, and market presence, as well as detail the workflow stages and methodologies used in developing technological solutions, integrating accessible and intuitive contact channels to ensure responsive navigation, effective communication, and a professional corporate presentation."
+        },
+        "autoRelatoriosAprovadosVexpenses": {
+            "title": "VExpenses Automation",
+            "paragraph": "Web automation developed to optimize corporate expense processing on the VExpenses platform, used by Marista Brasil to manage business travel, reimbursements, advances, and expense reports. It automates the retrieval of approved and previously validated reports for subsequent entry into institutional systems and ERPs, reducing manual tasks, streamlining operational workflows, and ensuring greater speed, standardization, and reliability in financial data processing."
+        },
+        "autoTicketsAbec": {
+            "title": "Citsmart Automation",
+            "paragraph": "Web automation developed to optimize request management on the Citsmart platform, used by Marista Brasil for ticket management, focusing on retrieving tickets related to invoice payment requests from the ABEC managing entity. It validates information and organizes data for subsequent entry and payment processing in institutional systems, reducing manual tasks, standardizing operational workflows, and ensuring greater speed, accuracy, and reliability in financial processes."
+        },
+        "apiRelatoriosAprovadosVexpenses": {
+            "title": "VExpenses API – Approved Reports",
+            "paragraph": "API integration developed to optimize data retrieval and extraction from the VExpenses platform, used by Marista Brasil for corporate expense management, including reimbursements, advances, and expense reports. It directly retrieves approved and previously validated reports for subsequent entry into institutional systems and ERPs, providing greater speed and efficiency compared to web interface automation, reducing operational steps, and ensuring greater agility, accuracy, and reliability in financial data processing."
+        },
+        "apiRelatoriosPendentesVexpenses": {
+            "title": "VExpenses API – Pending Reports",
+            "paragraph": "API integration developed to optimize corporate expense monitoring on the VExpenses platform, used by Marista Brasil to manage travel expenses, including reimbursements, advances, and expense reports. It identifies submitted reports that have been awaiting management approval for more than 10 days, facilitating request tracking, delay identification, and proactive follow-up on pending items, ensuring greater visibility, speed, and efficiency in financial process management."
+        },
         "viewProjectButton": "View",
         "githubButton": "Repository",
         "bySpan": "Developed by",
