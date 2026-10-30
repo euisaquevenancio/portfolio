@@ -49,14 +49,19 @@ function changeTheme(theme) {
         document.querySelector("#portfolio img").src = "assets/img/mockup/portfolio-mockup-" + theme + "-" + storagedLanguage +".png";
         document.querySelector("#whoIsThatChampion img").src = "assets/img/mockup/witc-mockup-" + theme + "-" + storagedLanguage +".png";
         document.querySelector("#whoIsThatChampionAPI img").src = "assets/img/mockup/witca-mockup-" + theme + "-" + storagedLanguage +".png";
-
-        if (storagedLanguage == "pt-br") {
-            document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + theme +"-1.png";
-        } else {
-            document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + theme +"-2.png";
-        }
-
+        document.querySelector("#radarPraiaGrande img").src = "assets/img/mockup/radarpg-mockup-" + theme + "-" + storagedLanguage +".png";
         document.querySelector("#calculator img").src = "assets/img/mockup/calculator-mockup-" + theme + "-" + storagedLanguage +".png";
         document.querySelector("#fluxosul img").src = "assets/img/mockup/fluxosul-mockup-" + theme + "-" + storagedLanguage +".png";
+        document.querySelector("#grupoSosSolucoes img").src = "assets/img/mockup/gss-mockup-" + theme + "-" + storagedLanguage +".png";
+        document.querySelector("#kraSolutions img").src = "assets/img/mockup/ks-mockup-" + theme + "-" + storagedLanguage +".png";
+        document.querySelector("#autoRelatoriosAprovadosVexpenses img").src = "assets/img/mockup/arav-mockup-" + theme + "-" + storagedLanguage +".png";
+        document.querySelector("#autoTicketsAbec img").src = "assets/img/mockup/ata-mockup-" + theme + "-" + storagedLanguage +".png";
+        document.querySelector("#apiRelatoriosAprovadosVexpenses img").src = "assets/img/mockup/rva-mockup-" + theme + "-" + storagedLanguage +".png";
+        if (storagedLanguage == "pt-br") {
+            document.querySelector("#apiRelatoriosPendentesVexpenses img").src = "assets/img/mockup/rva-mockup-" + theme + "-en-us.png";
+        } else {
+            document.querySelector("#apiRelatoriosPendentesVexpenses img").src = "assets/img/mockup/rva-mockup-" + theme + "-pt-br.png";
+        }
+
     }
 }
