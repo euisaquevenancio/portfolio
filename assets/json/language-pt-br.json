@@ -73,6 +73,28 @@
         "fluxosul": {
             "paragraph": "Página web desenvolvida para a FluxoSul – Soluções em Desentupimento, criada para apresentar a empresa e seus serviços de forma clara e profissional, estruturada para fortalecer a presença online da marca e facilitar o contato com clientes por meio de navegação simples, acessível e responsiva, garantindo boa usabilidade, adaptação a diferentes dispositivos e comunicação eficiente."
         },
+        "grupoSosSolucoes": {
+            "paragraph": "Website institucional desenvolvido para o Grupo SOS Soluções, empresa de consultoria, como proposta de redesign da plataforma já existente, com o objetivo de modernizar sua identidade digital e aprimorar a apresentação institucional, estruturando informações sobre a história da empresa, suas conquistas e serviços oferecidos, além de integrar canais de contato de forma acessível e intuitiva, garantindo uma navegação responsiva, comunicação eficiente e melhor experiência para os visitantes"
+        },
+        "kraSolutions": {
+            "paragraph": "Website institucional desenvolvido para a KRA Solutions, empresa especializada em tecnologia da informação, estruturado para apresentar seus serviços, história e atuação no mercado, além de detalhar as etapas e metodologias de trabalho utilizadas no desenvolvimento de soluções tecnológicas, integrando canais de contato de forma acessível e intuitiva, garantindo uma navegação responsiva, comunicação eficiente e uma apresentação profissional da empresa."
+        },
+        "autoRelatoriosAprovadosVexpenses": {
+            "title": "Automação Vexpenses",
+            "paragraph": "Automação web desenvolvida para otimizar o processamento de despesas corporativas na plataforma VExpenses, utilizada pelo Marista Brasil para a gestão de viagens, reembolsos, adiantamentos e prestações de contas, automatizando a captura de relatórios aprovados e previamente validados para posterior lançamento nos sistemas e ERPs institucionais, reduzindo atividades manuais, otimizando o fluxo operacional e garantindo maior agilidade, padronização e confiabilidade no processamento das informações financeiras."
+        },
+        "autoTicketsAbec": {
+            "title": "Automação Citsmart",
+            "paragraph": "Automação web desenvolvida para otimizar o gerenciamento de solicitações na plataforma Citsmart, utilizada pelo Marista Brasil para a gestão de chamados, com foco na captura de tickets relacionados às solicitações de pagamento de notas fiscais da mantenedora ABEC, realizando a validação das informações e a organização dos dados para posterior lançamento e processamento dos pagamentos nos sistemas institucionais, reduzindo atividades manuais, padronizando fluxos operacionais e garantindo maior agilidade, precisão e confiabilidade nos processos financeiros."
+        },
+        "apiRelatoriosAprovadosVexpenses": {
+            "title": "API Vexpenses Relatórios Aprovados",
+            "paragraph": "Integração via API desenvolvida para otimizar a consulta e a extração de dados da plataforma VExpenses, utilizada pelo Marista Brasil para a gestão de despesas corporativas, incluindo reembolsos, adiantamentos e prestações de contas, realizando a captura direta de relatórios aprovados e previamente validados para posterior lançamento nos sistemas e ERPs institucionais, proporcionando maior velocidade e eficiência em comparação aos processos de automação via interface web, reduzindo etapas operacionais e garantindo maior agilidade, precisão e confiabilidade no processamento das informações financeiras."
+        },
+        "apiRelatoriosPendentesVexpenses": {
+            "title": "API Vexpenses Relatórios Pendentes",
+            "paragraph": "Integração via API desenvolvida para otimizar o monitoramento de despesas corporativas na plataforma VExpenses, utilizada pelo Marista Brasil para a gestão de gastos com viagens, incluindo reembolsos, adiantamentos e prestações de contas, realizando a consulta e identificação de relatórios enviados que permanecem pendentes de validação pelos gestores há mais de 10 dias, facilitando o acompanhamento das solicitações, a identificação de atrasos e a atuação preventiva sobre pendências, garantindo maior visibilidade, agilidade e eficiência na gestão dos processos financeiros."
+        },
         "viewProjectButton": "Acessar",
         "githubButton": "Repositório",
         "bySpan": "Desenvolvido por",
